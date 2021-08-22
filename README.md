@@ -9,5 +9,11 @@ pip uninstall googletrans
 pip install googletrans==4.0.0-rc1  
   
 
+## デスクトップアプリ(view.py)
+pip install googletrans==4.0.0-rc1  
+pip install eel  
+pip install pyinstaller  
+python -m eel view.py web --onefile  
+  
 
 
